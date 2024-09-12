@@ -1,0 +1,9 @@
+h1 Wechselrichterübersicht
+
+h2 Bekannte Seriennummern
+
+ul
+- @sns.each do |sn|
+  li
+    = link_to show_data_path(sn: sn) do
+      = sn

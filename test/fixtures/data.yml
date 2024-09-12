@@ -1,0 +1,51 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  webdata_sn: MyString
+  webdata_msvn: MyString
+  webdata_ssvn: MyString
+  webdata_pv_type: MyString
+  webdata_rate_p: MyString
+  webdata_now_p: MyString
+  webdata_today_e: MyString
+  webdata_total_e: MyString
+  webdata_alarm: MyString
+  webdata_utime: MyString
+  cover_mid: MyString
+  cover_ver: MyString
+  cover_wmode: MyString
+  cover_ap_ssid: MyString
+  cover_ap_ip: MyString
+  cover_ap_mac: MyString
+  cover_sta_ssid: MyString
+  cover_sta_rssi: MyString
+  cover_sta_ip: MyString
+  cover_sta_mac: MyString
+  status_a: MyString
+  status_b: MyString
+  status_c: MyString
+
+two:
+  webdata_sn: MyString
+  webdata_msvn: MyString
+  webdata_ssvn: MyString
+  webdata_pv_type: MyString
+  webdata_rate_p: MyString
+  webdata_now_p: MyString
+  webdata_today_e: MyString
+  webdata_total_e: MyString
+  webdata_alarm: MyString
+  webdata_utime: MyString
+  cover_mid: MyString
+  cover_ver: MyString
+  cover_wmode: MyString
+  cover_ap_ssid: MyString
+  cover_ap_ip: MyString
+  cover_ap_mac: MyString
+  cover_sta_ssid: MyString
+  cover_sta_rssi: MyString
+  cover_sta_ip: MyString
+  cover_sta_mac: MyString
+  status_a: MyString
+  status_b: MyString
+  status_c: MyString

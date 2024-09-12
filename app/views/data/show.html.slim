@@ -1,0 +1,25 @@
+h1 Daten für Wechselrichter #{@datum.webdata_sn}
+
+table
+  tbody
+    tr
+      td
+        b Aktuelle Power
+      td
+        b= @datum.webdata_now_p
+
+    tr
+      td Ertrag heute
+      td= @datum.webdata_today_e
+
+    tr
+      td Ertrag total
+      td= @datum.webdata_total_e
+
+    - if @datum.webdata_alarm.present?
+      tr
+        td Warnung
+        td= @datum.webdata_alarm
+
+h2 Power-Historie
+= line_chart @history.group(:created_at).maximum(:webdata_now_p)
