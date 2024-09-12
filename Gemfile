@@ -35,6 +35,9 @@ gem "slim"
 
 gem "chartkick"
 
+# https://stackoverflow.com/questions/78617432/strange-bundle-update-issue-disappearing-net-pop-0-1-2-dependency
+gem "net-pop", github: "ruby/net-pop"
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
