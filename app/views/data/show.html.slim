@@ -7,14 +7,19 @@ table
         b Aktuelle Power
       td
         b= @datum.webdata_now_p
+        | &nbsp;W
 
     tr
       td Ertrag heute
-      td= @datum.webdata_today_e
+      td
+        = @datum.webdata_today_e
+        | &nbsp;kWh
 
     tr
       td Ertrag total
-      td= @datum.webdata_total_e
+      td
+        = @datum.webdata_total_e
+        | &nbsp;kWh
 
     - if @datum.webdata_alarm.present?
       tr
