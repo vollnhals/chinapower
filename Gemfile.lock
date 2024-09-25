@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/oldmoe/litestack.git
-  revision: 83a1dc5f788bee673a696ca2d6df551a84799bb4
+  revision: d0cc274f099d794f93dcc77f156a128df6f3894a
   specs:
     litestack (0.4.4)
       erubi (~> 1)
@@ -309,7 +309,7 @@ GEM
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
-    webrick (1.8.1)
+    webrick (1.8.2)
     websocket (1.2.11)
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
